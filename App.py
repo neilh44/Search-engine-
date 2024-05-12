@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from fastapi import FastAPI
 import streamlit as st
+from typing import Iterable
 
 # Web crawling and Indexing
 def crawl(url):
